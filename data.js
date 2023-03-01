@@ -1,3 +1,4 @@
+
 const dogs = [
     {
         name: "Rex",
@@ -23,3 +24,5 @@ const dogs = [
         hasBeenLiked: false
     }
 ]
+
+export default dogs
