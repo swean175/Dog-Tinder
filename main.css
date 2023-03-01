@@ -65,17 +65,23 @@ cursor: pointer;
 h2{
     color:#F8F8F8;
     font-size: 2rem;
+    line-height: 0.2em;
 }
 
 .picture-text{
     position: absolute;
-    display: inline-block;
+    display:flex;
+    flex-direction: column;
+   justify-content: end;
     font-size: 1.5rem;
-    transform: translateY(-100px) translateX(40px);
+    transform: translateY(-140px) translateX(40px);
     z-index: 2;
     color: #B7B7B7;
     font-family:'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 0.2em;
+    max-width: 450px;
+    min-height: 120px;
+    line-height: 1.2em;
+
 }
 
 .badge{

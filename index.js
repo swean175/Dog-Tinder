@@ -36,7 +36,7 @@ function changeHtml(){
     <img class="badge ${invisibleNoBadge}" src="/images/badge-nope.png" alt="disliked" width="233px" height="116px">
     <div id="about" class="picture-text">
         <h2>${currentDog.name}, ${currentDog.age}</h2>
-        <span>  ${currentDog.bio}</span>
+        <article>  ${currentDog.bio}</article>
     </div>`
 }
 
